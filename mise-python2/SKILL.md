@@ -19,10 +19,10 @@ Use Anaconda's x86_64 Python 2.7 package with Rosetta 2 emulation, then link to 
 
 ## Quick Install
 
-Run the bundled script:
+从 Skill 根目录运行 bundled script：
 
 ```bash
-~/Workspace/kiku-skills/mise-python2/scripts/install_python2.sh
+bash scripts/install_python2.sh
 ```
 
 This will:
