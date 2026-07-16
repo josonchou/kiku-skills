@@ -2,6 +2,22 @@
 
 个人私有 AI Skills 仓库。
 
+## 安装
+
+使用 [`skills`](https://github.com/vercel-labs/skills) CLI 全局安装本仓库的全部 Skills：
+
+```bash
+npx skills add josonchou/kiku-skills -g
+```
+
+仅安装指定 Skill：
+
+```bash
+npx skills add josonchou/kiku-skills@half-year-work-summary -g
+```
+
+移除 `-g` 可将 Skill 安装到当前项目，而非用户全局目录；添加 `-y` 可跳过交互确认。
+
 ## Skills
 
 - `half-year-work-summary`：从多个 Git 项目的周期提交中整理工作总结、KPI 自评和飞书绩效文档。
