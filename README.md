@@ -4,19 +4,17 @@
 
 ## 安装
 
-使用 [`skills`](https://github.com/vercel-labs/skills) CLI 全局安装本仓库的全部 Skills：
+使用 [`skills`](https://github.com/vercel-labs/skills) CLI 安装指定 Skill：
 
 ```bash
-npx skills add josonchou/kiku-skills -g
+npx skills add https://github.com/josonchou/kiku-skills --skill half-year-work-summary
 ```
 
-仅安装指定 Skill：
+安装其他 Skill 时替换 `--skill` 参数，例如：
 
 ```bash
-npx skills add josonchou/kiku-skills@half-year-work-summary -g
+npx skills add https://github.com/josonchou/kiku-skills --skill mise-python2
 ```
-
-移除 `-g` 可将 Skill 安装到当前项目，而非用户全局目录；添加 `-y` 可跳过交互确认。
 
 ## Skills
 
